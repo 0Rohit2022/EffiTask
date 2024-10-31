@@ -11,7 +11,7 @@ spring:
     show-sql: true
 
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/mydatabase
-    username:
-    password:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/task_user_service
+    username: root
+    password: toor
     driver-class-name: com.mysql.cj.jdbc.Driver

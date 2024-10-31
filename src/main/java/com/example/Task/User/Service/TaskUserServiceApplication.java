@@ -8,6 +8,7 @@ public class TaskUserServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TaskUserServiceApplication.class, args);
+		System.out.println("hello world");
 	}
 
 }
